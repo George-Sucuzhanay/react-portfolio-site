@@ -6,7 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.container img{
+  width: 130px;
+  height: 120px;
+}
+a.active.navbar-brand {
+  margin-left: 20px;
+}
+.work h1 {
+  font-size: 35px;
+}
+.work img{
+  width: 50%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

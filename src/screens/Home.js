@@ -1,18 +1,16 @@
 import Header from "../components/Header";
 import Interests from "../components/Interests";
-import TechnicalSkills from "../components/TechnicalSkills";
 import WorkExperience from "../components/WorkExperience";
-import Projects from "../components/Projects";
 import Footer from "../components/Footer";
+import Banner from "../components/Banner";
 
 const  Home = () => {
     return(
         <div>
             <Header/>
-            <TechnicalSkills/>
+            <Banner/>
             <WorkExperience/>
             <Interests/>
-            <Projects/>
             <Footer/>
         </div>
     )
